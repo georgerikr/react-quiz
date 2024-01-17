@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+# React quiz
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a small interactive quiz built with the React JavaScript library.
 
-## Available Scripts
+### Prerequisites
+- [Node.js](https://nodejs.org/) (version v21.x.x)
+- [npm](https://www.npmjs.com/) (version 10.x.x)
 
-In the project directory, you can run:
+## Installation
 
-### `npm start`
+**Note:** In this installation guide, we are using a project folder named "react-quiz". You can choose your own folder name but in that case you need to change "homepage" value in package.json file.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To download and run the application on your local machine, follow these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Open a terminal in your local development environment folder (usually named `htdocs` if using XAMPP or MAMP, etc.).
+2. Clone the repository by running the following command in the terminal: 
+`git clone [projects_repository] react-quiz`
+Replace `[projects_repository]` with the HTTPS URL or SSH key of this repository. The "react-quiz" after the repository URL creates a folder named "react-quiz" and clones the repository into that folder.
+3. After the clone is complete, navigate to the "react-quiz" folder and run the following command to install packages:
+`npm install`
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Running the application
+You can run the application with two methods:
+- Development: for this method you have to delete "homepage" row from package.json file and then run `npm start` in terminal. That starts the development server and opens the application in browser.
+- Production build: for this method you have to run `npm run build` in the terminal. Now you can access the application in your browser at the localhost URL: http://localhost/react-quiz/build/.
