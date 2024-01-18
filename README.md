@@ -24,4 +24,4 @@ You can run the application with two methods:
 
 ### Live application
 
-Live application is located at `https://kexdev.ee/react-quiz/build/`.
+Live application is located at https://kexdev.ee/react-quiz/build/.
