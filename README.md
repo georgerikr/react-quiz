@@ -17,7 +17,7 @@ To download and run the application on your local machine, follow these steps:
 `git clone [projects_repository] react-quiz`
 Replace `[projects_repository]` with the HTTPS URL or SSH key of this repository. The "react-quiz" after the repository URL creates a folder named "react-quiz" and clones the repository into that folder.
 3. After the clone is complete, navigate to the "react-quiz" folder and run the following command to install packages:
-`npm install`
+```npm install```
 
 ### Running the application
 You can run the application with two methods:
