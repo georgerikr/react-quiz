@@ -1,6 +1,6 @@
 # React quiz
 
-This is a small interactive quiz built with the React JavaScript library.
+This is a small interactive quiz built with React JavaScript library.
 
 ### Prerequisites
 - [Node.js](https://nodejs.org/) (version v21.x.x)
