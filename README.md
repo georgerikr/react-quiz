@@ -21,3 +21,7 @@ Replace `[projects_repository]` with the HTTPS URL or SSH key of this repository
 You can run the application with two methods:
 - Development build(not optimized): for this method you have to delete "homepage" row from package.json file and then run `npm start` in terminal. That starts a local development server and opens the application in your browser.
 - Production build(optimized): for this method you have to run `npm run build` in terminal. Now you can access the application in your browser at the localhost URL: http://localhost/react-quiz/build/.
+
+### Live application
+
+Live application is located at `https://kexdev.ee/react-quiz/build/`.
