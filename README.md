@@ -1,8 +1,6 @@
 # React quiz
 
 This is a small interactive quiz built with React JavaScript library.
-
-### Prerequisites
 - [Node.js](https://nodejs.org/) (version v21.x.x)
 - [npm](https://www.npmjs.com/) (version 10.x.x)
 
@@ -22,4 +20,4 @@ Replace `[projects_repository]` with the HTTPS URL or SSH key of this repository
 ## Running the application
 You can run the application with two methods:
 - Development build(not optimized): for this method you have to delete "homepage" row from package.json file and then run `npm start` in terminal. That starts a local development server and opens the application in your browser.
-- Production build(optimized): for this method you have to run `npm run build` in the terminal. Now you can access the application in your browser at the localhost URL: http://localhost/react-quiz/build/.
+- Production build(optimized): for this method you have to run `npm run build` in terminal. Now you can access the application in your browser at the localhost URL: http://localhost/react-quiz/build/.
